@@ -13,7 +13,6 @@ module.exports = plugin.withOptions(function (options = {}) {
         [`${className}`]: (value) => ({
           "> path": {
             fill: value,
-            stroke: value,
           },
         }),
       },
