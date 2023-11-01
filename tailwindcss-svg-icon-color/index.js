@@ -11,7 +11,7 @@ module.exports = plugin.withOptions(function (options = {}) {
 
     matchUtilities(
       {
-        [`.${className}`]: value => ({
+        [`${className}`]: value => ({
           '> path': {
             fill: value,
           },
