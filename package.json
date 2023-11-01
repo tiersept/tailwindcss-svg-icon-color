@@ -1,0 +1,6 @@
+{
+  "workspaces": [
+    "demo",
+    "tailwindcss-svg-icon-color"
+  ]
+}
