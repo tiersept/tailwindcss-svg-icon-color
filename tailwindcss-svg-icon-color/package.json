@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Tailwind CSS plugin for coloring icons.",
   "author": "Kevin Lobine <i@kevinlobine.com>",
-  "repository": "https://github.com/jonaskay/tailwindcss-elevation.git",
+  "repository": "https://github.com/tiersept/tailwindcss-svg-icon-color.git",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
