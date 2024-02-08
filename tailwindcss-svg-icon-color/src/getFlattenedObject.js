@@ -17,16 +17,13 @@
  *
  */
 
-module.exports = function getFlattenedObject(
-  object,
-  parentKey = ''
-) {
+module.exports = function getFlattenedObject(object, parentKey = "") {
   const result = {};
 
-  Object.keys(object).forEach(key => {
+  Object.keys(object).forEach((key) => {
     const newKey = parentKey ? `${parentKey}-${key}` : key;
 
-    if (typeof object[key] === 'object' && !Array.isArray(object[key])) {
+    if (typeof object[key] === "object" && !Array.isArray(object[key])) {
       const nestedObject = getFlattenedObject(object[key], newKey);
       Object.assign(result, nestedObject);
     } else {
