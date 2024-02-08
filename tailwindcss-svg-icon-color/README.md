@@ -11,7 +11,7 @@ To install the package, run
 
     yarn add -D tailwindcss-svg-icon-color
 
-### Config
+## Config
 
 In your `tailwind.config.js` file, import the plugin as follows.
 
@@ -23,7 +23,7 @@ module.exports = {
 };
 ```
 
-### Example usage
+## Example usage
 
 The class targets the `path` property in the svg and adds a fill color from the theme file.
 
