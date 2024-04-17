@@ -1,5 +1,8 @@
 # tailwindcss-svg-icon-color
 
+<a href="https://www.npmjs.com/package/tailwindcss-svg-icon-color"><img src="https://badgen.net/npm/v/tailwindcss-svg-icon-color" alt="Version"></a>
+<a href="https://www.npmjs.com/package/tailwindcss-svg-icon-color"><img src="https://badgen.net/npm/dm/tailwindcss-svg-icon-color" alt="Downloads"></a>
+
 A plugin that adds the `icon-color-...` utility class to your arsenal of classes to use on svg's.
 Assuming the icon's are designed and exported to only obtain their colors from the fill property set on the path.
 
