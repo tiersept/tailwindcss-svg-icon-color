@@ -1,5 +1,8 @@
 # tailwindcss-svg-icon-color
 
+<a href="https://www.npmjs.com/package/tailwindcss-svg-icon-color"><img src="https://badgen.net/npm/v/tailwindcss-svg-icon-color" alt="Version"></a>
+<a href="https://www.npmjs.com/package/tailwindcss-svg-icon-color"><img src="https://badgen.net/npm/dm/tailwindcss-svg-icon-color" alt="Downloads"></a>
+
 A plugin that adds the `icon-color-...` utility class to your arsenal of classes to use on svg's.
 Assuming the icon's are designed and exported to only obtain their colors from the fill property set on the path.
 
@@ -11,7 +14,7 @@ To install the package, run
 
     yarn add -D tailwindcss-svg-icon-color
 
-### Config
+## Config
 
 In your `tailwind.config.js` file, import the plugin as follows.
 
@@ -23,7 +26,7 @@ module.exports = {
 };
 ```
 
-### Example usage
+## Example usage
 
 The class targets the `path` property in the svg and adds a fill color from the theme file.
 
